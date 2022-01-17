@@ -4,7 +4,6 @@
 //
 //  Created by Shaleen on 16/01/22.
 //
-
 import UIKit
 
 class OnboardingViewController: UIViewController {
