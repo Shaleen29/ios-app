@@ -4,6 +4,7 @@
 //
 //  Created by Shaleen on 15/01/22.
 //
+
 import UIKit
 
 let appColor: UIColor = .systemTeal
@@ -27,9 +28,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         onboardingViewController.delegate = self
         dummyViewController.logoutDelegate = self
         
-        window?.rootViewController = mainViewController
+//        window?.rootViewController = mainViewController
 //        window?.rootViewController = onboardingViewController
-//        window?.rootViewController = AccountSummaryViewController()
+        window?.rootViewController = AccountSummaryViewController()
 //        window?.rootViewController = OnboardingContainerViewController()
 
         mainViewController.selectedIndex = 2
@@ -77,5 +78,3 @@ extension AppDelegate: LogoutDelegate {
         setRootViewController(loginViewController)
     }
 }
-
-
