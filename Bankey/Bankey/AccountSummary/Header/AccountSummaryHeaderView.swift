@@ -38,4 +38,3 @@ class AccountSummaryHeaderView: UIView {
         contentView.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
     }
 }
-
