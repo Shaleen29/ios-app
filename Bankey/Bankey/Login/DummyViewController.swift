@@ -6,6 +6,7 @@
 //
 
 
+
 import Foundation
 import UIKit
 
@@ -56,4 +57,3 @@ extension DummyViewController {
         logoutDelegate?.didLogout()
     }
 }
-

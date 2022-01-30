@@ -4,7 +4,6 @@
 //
 //  Created by Shaleen on 15/01/22.
 //
-
 import Foundation
 import UIKit
 
@@ -91,3 +90,4 @@ extension LoginView: UITextFieldDelegate {
     func textFieldDidEndEditing(_ textField: UITextField) {
     }
 }
+
